@@ -32,9 +32,16 @@ print('Linear convolution using convolution sum formula output response y =\n',y
 print('Linear convolution using NumPy built-in function output response y=\n',y1)
 
 #RESULT
-#Linear convolution using convolution sum formula output response y =
-#[ 1.  4. 10. 19. 30. 36. 35. 26. 14.  5.]
-#Linear convolution using NumPy built-in function output response y=
-#[ 1  4 10 19 30 36 35 26 14  5]
+# EXAMPLE_INPUT
 
-# plt.plot(x, y)
+# x = 1 2 3 4 5 => [1,2,3,4,5]
+# h = 1 2 3 => [1, 2, 3]
+
+# EXAMPLE OUTPUT
+
+#Linear convolution using convolution sum formula output response y =
+#  [ 1.  4. 10. 16. 22. 22. 15.]
+#Linear convolution using NumPy built-in function output response y=
+#  [ 1  4 10 16 22 22 15]
+
+# PLOTTING TO BE DONE
